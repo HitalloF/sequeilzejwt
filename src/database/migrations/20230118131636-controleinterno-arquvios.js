@@ -24,7 +24,7 @@ module.exports = {
         allowNull: false
       },
       anexo: {
-        type: Sequelize.BLOB,
+        type: Sequelize.STRING,
         allowNull: false
       },
 

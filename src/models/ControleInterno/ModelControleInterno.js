@@ -6,7 +6,7 @@ class controleArquivos extends Model {
             oficio:DataTypes.INTEGER,
             setor:DataTypes.STRING,
             asssunto:DataTypes.STRING,
-            anexo:DataTypes.BLOB
+            anexo:DataTypes.STRING
         },{
             sequelize
         })
